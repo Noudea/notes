@@ -108,6 +108,18 @@ docs/       - documentation
 
 Focus on high-signal directories/files only.
 
+## Documentation
+
+List supporting docs and references used by this prompt.
+
+Example:
+
+```md
+/workspaces/notes/docs/ARCHITECTURE.md - system boundaries and design
+/workspaces/notes/docs/API.md - API contracts and payloads
+https://example.com/sdk/docs - third-party SDK reference
+```
+
 ## Report
 
 Define the required output format and location.
@@ -169,6 +181,11 @@ git diff "$BASE_BRANCH"...HEAD
 src/        - primary application logic
 tests/      - automated tests
 docs/       - design notes and specifications
+```
+
+## Documentation
+```md
+https://conventionalcomments.org/ - use this format for all PR review comments
 ```
 
 ## Report
