@@ -143,7 +143,7 @@ Be explicit about where the report goes and what it must contain.
 ---
 description: Review current git branch against master and produce a risk-focused report.
 argument-hint: BASE_BRANCH
-allowed-tools: git, bash
+allowed-tools: Read, Bash, Write, WebFetch
 ---
 
 # Branch Code Review Prompt
