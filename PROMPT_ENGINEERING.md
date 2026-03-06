@@ -39,7 +39,7 @@ Define reusable values that appear across sections.
 Use uppercase names for readability and consistency.
 
 ```md
-VARIABLE_EXAMPLE: $1
+VARIABLE_EXAMPLE: $ARGUMENTS
 DEFINED_VARIABLE_EXAMPLE: ./path/to/plan
 OUTPUT_DIRECTORY: ./report
 ```
@@ -51,6 +51,12 @@ Guidelines:
 Example:
 - `argument-hint`: `plan_path`
 - `Variables` section: `PLAN_PATH: $ARGUMENT`
+You can also access individual arguments using positional parameters:
+$1 - First argument
+$2 - Second argument
+$3 - Third argument
+And so on…
+
 
 ## Instructions
 
@@ -151,7 +157,7 @@ allowed-tools: Read, Bash, Write, WebFetch
 Review all changes in the current branch compared to `master`.
 
 ## Variables
-BASE_BRANCH: $1
+BASE_BRANCH: $ARGUMENTS
 OUTPUT_DIRECTORY: ./report
 REPORT_FILE: BRANCH_REVIEW.md
 
