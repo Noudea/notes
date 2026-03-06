@@ -5,7 +5,8 @@ Each section below explains what to include and why it matters.
 
 ## Metadata
 
-Use frontmatter-style metadata so the runner can parse prompt capabilities.
+Use frontmatter-style metadata so the runner can parse prompt capabilities. This should change based on the coding agent / tool / skill / formatting required.
+Example:
 
 ```yaml
 ---
