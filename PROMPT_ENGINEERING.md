@@ -150,7 +150,7 @@ allowed-tools: Read, Bash, Write, WebFetch
 Review all changes in the current branch compared to `master`.
 
 ## Variables
-BASE_BRANCH: $ARGUMENT
+BASE_BRANCH: $1
 OUTPUT_DIRECTORY: ./report
 REPORT_FILE: BRANCH_REVIEW.md
 
