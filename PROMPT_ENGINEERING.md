@@ -38,7 +38,7 @@ Define reusable values that appear across sections.
 Use uppercase names for readability and consistency.
 
 ```md
-VARIABLE_EXAMPLE: $ARGUMENT
+VARIABLE_EXAMPLE: $1
 DEFINED_VARIABLE_EXAMPLE: ./path/to/plan
 OUTPUT_DIRECTORY: ./report
 ```
